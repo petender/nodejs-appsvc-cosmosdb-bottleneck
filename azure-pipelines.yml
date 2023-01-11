@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  webAppName: 'eshoponWebYAML369825031'
+  serviceConnection: 'PETENDER PDTDEMOWORLD SUBSCRIPTION (b86d9ae1-7552-4b75-a1e0-27fb2ea7f9f4)'
+  azureSubscriptionId: 'b86d9ae1-7552-4b75-a1e0-27fb2ea7f9f4'
+  loadTestResource: 'eshoponWebAzLoadTest'
+  loadTestResourceGroup: 'AZ400RG'
+  location: CENTRALUS'
 
 
 stages:
